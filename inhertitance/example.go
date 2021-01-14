@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 type Example struct {
@@ -30,4 +31,5 @@ func main() {
 		Example{"Prasad", 5},
 	}
 	fmt.Println(exampleTwo.getData())
+	fmt.Println(reflect.TypeOf(exampleTwo))
 }
