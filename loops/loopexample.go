@@ -13,4 +13,9 @@ func main() {
 		sep = " "
 	}
 	fmt.Println(s)
+
+	for j := 1; j <= 5; j++ {
+		fmt.Println(j)
+	}
+
 }
