@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func add(x int, y int) int {
 	var out = x + y
@@ -13,4 +15,5 @@ func main() {
 
 	result := add(num1, num2)
 	fmt.Println(result)
+
 }
