@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
+const message = "Hello Prasad Thangavel"
+
 func main() {
 	g := greeter{
 		greeting: "hello",
 		name:     "Go",
 	}
 	g.greet()
+	fmt.Println(message)
 
 }
 
