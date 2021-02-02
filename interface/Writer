@@ -1,0 +1,4 @@
+package io
+type Writer interface {
+    Writer(p [] byte) (n int, err error)
+}
